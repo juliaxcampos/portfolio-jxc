@@ -1,9 +1,15 @@
 body{
-max-width: 1200px;
-margin: auto;
+display: grid;
+min-width: 100wh;
+place-content: center;
+font-family: system-ui;
+font-size: 1rem;
     header{
+        width: 1200px;
         display: flex;
         justify-content: space-between;
+        margin: 50px auto;
+        align-items: flex-end;
         .pageTitle{
             display: flex;
             align-items: baseline;
