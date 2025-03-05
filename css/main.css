@@ -1,6 +1,6 @@
 body{
 display: grid;
-min-width: 100wh;
+max-width: 100wh;
 place-content: center;
 font-family: system-ui;
 font-size: 1rem;
